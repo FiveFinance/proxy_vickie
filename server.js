@@ -5,9 +5,11 @@ const app = express();
 const PORT = 3000;
 
 app.use('/', express.static(__dirname + '/public/'));
+app.use('/stocks/:stockID', express.static(__dirname + '/public/'));
 
-// Set up API routes to various modules
-
+app.get('/', (req, res) => {
+  res.send();
+});
 
 app.listen(PORT, () => {
   console.log(`Server now listening at ${PORT}`);
