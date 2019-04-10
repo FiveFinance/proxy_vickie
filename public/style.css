@@ -1,12 +1,15 @@
 body {
+}
+#Wrapper {
     display: inline-flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
 }
 #LeftCol {
     width: 764px;
-    flex-direction: column;
     padding-bottom: 100px;
+    flex-direction: column;
+    align-items: space-evenly;
 }
 #RightCol {
     padding-bottom: 100px;

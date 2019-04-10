@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
-    "build": "webpack --mode production",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -22,9 +20,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.4",
-    "fetch": "^1.1.0",
-    "morgan": "^1.9.1",
-    "webpack": "^4.29.6"
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "http-proxy-middleware": "^0.19.1",
